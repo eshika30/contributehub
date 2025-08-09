@@ -19,8 +19,8 @@ Discover, bookmark, and summarize beginner-friendly GitHub issues — with AI-po
 ## 📦 Live Demo
 
 Check out the live version of the project here:  
-👉 [ContributeHub+ Live Demo](https://yourusername.github.io/contributehub)  
-*(Replace with your actual GitHub Pages link)*
+👉 [ContributeHub+ Live Demo]( https://eshika30.github.io/contributehub/)  
+
 
 ---
 
@@ -52,8 +52,8 @@ MIT License
 
 ContributeHub+ is a modern open-source issue explorer designed to help beginner contributors quickly find good first issues, bookmark them, and understand them using AI summaries — all in a simple, responsive UI with light/dark themes.
 
-![Screenshot](./screenshots/ss1.png) <!-- Replace with your screenshot path -->
-![Screenshot](./screenshots/ss2.png) <!-- Replace with your screenshot path -->
+![Screenshot](ContributeHub/screenshots/ss1.png) <!-- Replace with your screenshot path -->
+![Screenshot](ContributeHub/screenshots/ss2.png) <!-- Replace with your screenshot path -->
 
 ---
 
