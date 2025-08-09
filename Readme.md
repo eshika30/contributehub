@@ -52,7 +52,7 @@ MIT License
 
 ContributeHub+ is a modern open-source issue explorer designed to help beginner contributors quickly find good first issues, bookmark them, and understand them using AI summaries — all in a simple, responsive UI with light/dark themes.
 
-Light Theme - ![Screenshot](Screenshots/ss1.png)) 
+Light Theme - ![Screenshot](Screenshots/ss1.png)
 Dark Theme- ![Screenshot](Screenshots/ss2.png) 
 
 
@@ -74,7 +74,7 @@ Dark Theme- ![Screenshot](Screenshots/ss2.png)
 
 | Search View | Bookmarks & Chart | AI Summarizer |
 |-------------|-------------------|---------------|
-| ![Search](./Screenshots/ss3.png) | ![PieChart](./Screenshots/ss5.png) | ![Summarizer](./Screenshots/ss4.png) |
+| ![Search](./Screenshots/ss3.png) | ![PieChart](./Screenshots/ss4.png) | ![Summarizer](./Screenshots/ss5.png) |
 
 
 
