@@ -52,7 +52,7 @@ MIT License
 
 ContributeHub+ is a modern open-source issue explorer designed to help beginner contributors quickly find good first issues, bookmark them, and understand them using AI summaries — all in a simple, responsive UI with light/dark themes.
 
-![Screenshot](ContributeHub/screenshots/ss1.png) <!-- Replace with your screenshot path -->
+![Screenshot](https://raw.githubusercontent.com/eshika30/contributhub/main/screenshots/ss1.png)) <!-- Replace with your screenshot path -->
 ![Screenshot](ContributeHub/screenshots/ss2.png) <!-- Replace with your screenshot path -->
 
 ---
