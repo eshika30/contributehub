@@ -1,4 +1,4 @@
-# 🚀 ContributeHub+
+# 🚀 ContributeHub
 
 Discover, bookmark, and summarize beginner-friendly GitHub issues — with AI-powered summaries, a bookmarks pie chart, and a clean light/dark theme.
 
@@ -52,8 +52,8 @@ MIT License
 
 ContributeHub+ is a modern open-source issue explorer designed to help beginner contributors quickly find good first issues, bookmark them, and understand them using AI summaries — all in a simple, responsive UI with light/dark themes.
 
-![Screenshot](https://raw.githubusercontent.com/eshika30/contributhub/main/screenshots/ss1.png)) <!-- Replace with your screenshot path -->
-![Screenshot](ContributeHub/screenshots/ss2.png) <!-- Replace with your screenshot path -->
+![Screenshot](Screenshots/ss1.png)) <!-- Replace with your screenshot path -->
+![Screenshot](Screenshots/ss2.png) <!-- Replace with your screenshot path -->
 
 ---
 
@@ -73,9 +73,9 @@ ContributeHub+ is a modern open-source issue explorer designed to help beginner 
 
 | Search View | Bookmarks & Chart | AI Summarizer |
 |-------------|-------------------|---------------|
-| ![Search](./screenshots/ss3.png) | ![PieChart](./screenshots/ss5.png) | ![Summarizer](./screenshots/ss4.png) |
+| ![Search](./Screenshots/ss3.png) | ![PieChart](./Screenshots/ss5.png) | ![Summarizer](./Screenshots/ss4.png) |
 
-*(Replace these image paths with actual screenshots after uploading to your repo)*
+
 
 ---
 
