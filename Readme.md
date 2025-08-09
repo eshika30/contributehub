@@ -36,7 +36,7 @@ Check out the live version of the project here:
 ## 👤 Author
 
 **Eshika Raut**  
-📧 your-email@example.com  
+📧 eshikaraut30@gmail.com  
 🔗 [LinkedIn](www.linkedin.com/in/eshika-raut-96605a22a)  
 🔗 [GitHub](https://github.com/eshika30)
 
@@ -52,8 +52,9 @@ MIT License
 
 ContributeHub+ is a modern open-source issue explorer designed to help beginner contributors quickly find good first issues, bookmark them, and understand them using AI summaries — all in a simple, responsive UI with light/dark themes.
 
-![Screenshot](Screenshots/ss1.png)) <!-- Replace with your screenshot path -->
-![Screenshot](Screenshots/ss2.png) <!-- Replace with your screenshot path -->
+Light Theme - ![Screenshot](Screenshots/ss1.png)) 
+Dark Theme- ![Screenshot](Screenshots/ss2.png) 
+
 
 ---
 
