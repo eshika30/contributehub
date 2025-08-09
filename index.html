@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ContributeHub+</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/616/616408.png" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <div class="logo-area">
+      <h1 class="h1">ContributeHub</h1>
+      <p class="tagline">Explore beginner-friendly open source issues</p>
+    </div>
+    <button id="toggle-theme" class="btn-ghost" aria-label="Toggle theme" title="Toggle theme">🌙/🌞</button>
+  </header>
+
+  <div class="container">
+    <main>
+      <section id="intro">
+        <h2>Find Good First Issues</h2>
+
+        <div class="search-box">
+          <div class="search-row">
+            <label for="search-type" class="visually-hidden">Search By</label>
+            <select id="search-type" aria-label="Search type">
+              <option value="language">Programming Language</option>
+              <option value="repository">Repository Name</option>
+            </select>
+
+            <input id="searchInput" type="text" placeholder="e.g. python or facebook/react" aria-label="Search input"/>
+
+            <button id="search-btn" class="btn-primary">Search</button>
+          </div>
+
+          <div id="loader" class="loader" style="display:none;">🔄 Loading...</div>
+        </div>
+      </section>
+
+      <div class="controls">
+        <button id="show-bookmarks" class="btn-outline">Show Bookmarks (<span id="bookmark-count">0</span>)</button>
+        <button id="clear-bookmarks" class="btn-danger">🗑️ Clear All Bookmarks</button>
+      </div>
+
+      <section id="results-section">
+        <h2>Results</h2>
+        <div id="results" class="card-container"></div>
+      </section>
+
+      <section id="bookmarks-section" style="display:none;">
+        <h2>⭐ Bookmarked Issues</h2>
+
+        <div class="bookmarks-grid">
+          <div id="bookmarks" class="card-container"></div>
+
+          <div class="chart-wrap">
+            <h3>Bookmarks by Language</h3>
+            <canvas id="pieChart" width="220" height="220"></canvas>
+            <p class="chart-note">Tip: bookmark across languages to diversify your contributions.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <section id="assistant-section">
+      <h3>🤖 Issue Summarizer</h3>
+      <p class="assistant-hint">Click <strong>🧠 Summarize</strong> on any card, or paste text here:</p>
+
+      <textarea id="summary-input" placeholder="Paste issue text here..."></textarea>
+
+      <div class="assistant-actions">
+        <button id="summarize-free" class="btn-secondary">Summarize (Offline)</button>
+        <button id="summarize-openai" class="btn-primary" title="Uses your OpenAI key locally">Summarize with OpenAI</button>
+      </div>
+
+      <div id="summary-output"></div>
+    </section>
+  </div>
+
+  <footer>
+    <p>Built with ❤️ for contributors</p>
+  </footer>
+
+  <!-- Toast -->
+  <div id="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
